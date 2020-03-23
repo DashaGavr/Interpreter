@@ -1,0 +1,13 @@
+program 
+var
+	n,i,k:int;
+begin
+	read(n);
+	i := 0;
+	while (i < n) do begin
+		read(k);
+		i := i + 1;
+		write(k)
+	end;
+	write(n)
+end@

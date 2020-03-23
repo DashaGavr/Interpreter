@@ -1,0 +1,11 @@
+program
+   var factorial,n,i : int;
+begin
+   factorial := 1;
+   read(n);
+   while  i <= n  do begin
+      	factorial := factorial * i;
+      	i := i + 1
+   end;
+   write(factorial*i)
+end@

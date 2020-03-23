@@ -1,0 +1,20 @@
+program
+
+var 	tmp,res : bool,
+	k,p : int;
+	
+
+begin
+
+	read(tmp);
+	read(p);
+	read(k);
+	
+	k := k + 1;
+	
+	if (not tmp and (k != 0)) then 
+		res := tmp 
+	else 
+		res := k != 1
+	
+end@
